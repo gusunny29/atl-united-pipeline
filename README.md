@@ -172,6 +172,7 @@ We've seen a similar trend amongst European teams, where teams like Manchester U
 ### Test
 
 - Wrote some small tests to analyze how ingestion and tranforming behave to ensure that the loading and trasnforming of data was behaving as expected and used some sql files to do some testing while building the pipeline
+- You can run tests by using pytest tests/
 
 ### Challenges Faced
 
