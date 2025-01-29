@@ -1,2 +1,2 @@
 select *
-from salaries
+from xgoals_games
