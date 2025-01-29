@@ -36,7 +36,7 @@ PostgreSQL is super reliable and scabale, provides strong functionality for hand
 - Environment: python-dotenv
 - Data Analysis: numpy, pandas
 
-4. Create an .env file in the source directory with the follwing structure
+4. Create an .env file in the source (src) directory with the following structure
    DB_HOST=localhost
    DB_PORT=5432
    DB_NAME=your_database_name
@@ -171,7 +171,7 @@ We've seen a similar trend amongst European teams, where teams like Manchester U
 
 ### Test
 
-- Wrote some small tests to analyze how ingestion and tranforming behave to ensure that the loading and trasnforming of data was behaving as expected
+- Wrote some small tests to analyze how ingestion and tranforming behave to ensure that the loading and trasnforming of data was behaving as expected and used some sql files to do some testing while building the pipeline
 
 ### Challenges Faced
 
