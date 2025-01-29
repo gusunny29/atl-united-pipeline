@@ -206,7 +206,7 @@ def preprocess_data(file_path=None, rename_mapping=None, format_currency_columns
             for col in format_currency_columns:
                 if col in df.columns:
                     df[col] = df[col].replace(r"[\$,]", "", regex=True).astype(float)
-                    print(df[col])
+                    
 
         # Fill missing values, drop duplicates
         df = df.fillna(0).drop_duplicates()
